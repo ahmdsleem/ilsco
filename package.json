@@ -1,0 +1,16 @@
+{
+  "name": "ils-website",
+  "version": "1.0.0",
+  "description": "Integrated Landscape Solution - Static Website",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve . --port 3000",
+    "clean": "rm -rf node_modules",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "author": "Ahmad",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}

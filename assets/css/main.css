@@ -88,7 +88,6 @@ time,
 mark,
 audio,
 video {
-    direction: rtl;
     margin: 0;
     padding: 0;
     border: 0;
@@ -260,7 +259,7 @@ h6 {
     color: inherit;
     font-weight: 600;
     line-height: 1.75em;
-    margin-bottom: 1em;
+    margin-bottom: 1cap;
 }
 
 h1 a,
@@ -2074,12 +2073,12 @@ header p {
     font-size: 1.25em;
     position: relative;
     margin-top: -1.25em;
-    margin-bottom: 2.25em;
+    margin-bottom: 1em;
 }
 
 header.major {
     text-align: center;
-    margin: 0 0 2em 0;
+    margin: 0 0 0 0;
 }
 
 header.major h2 {
@@ -2892,7 +2891,6 @@ button.small,
 /* Wrapper */
 
 .wrapper {
-    direction: rtl;
     padding: 5em 0 3em 0;
 }
 
