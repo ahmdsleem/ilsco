@@ -3571,6 +3571,8 @@ button.small,
 .magazine-img {
     width: 100%;
     border-radius: 6px;
+    height: 220px;
+    object-fit: cover;
     margin-bottom: 15px;
 }
 
