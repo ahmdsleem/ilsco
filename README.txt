@@ -30,3 +30,8 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+Site used for zip pictuers: TinyPNG - Squoosh
+
+Images source: Unsplash - Openverse - Freepik - Pixabay - Pexels

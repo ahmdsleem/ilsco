@@ -221,13 +221,13 @@ a {
         color 0.2s ease-in-out,
         border-color 0.2s ease-in-out,
         opacity 0.2s ease-in-out;
-    color: #37c0fb;
+    color: #43d373;
     text-decoration: none;
     border-bottom: dotted 1px;
 }
 
 a:hover {
-    color: #37c0fb;
+    color: #43d373;
     border-bottom-color: transparent;
 }
 
@@ -356,7 +356,7 @@ blockquote {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 100%;
+        width: 95%;
     }
 }
 
@@ -1708,7 +1708,7 @@ blockquote {
     }
 
     .row > .col-12-mobile {
-        width: 100%;
+        width: 70%;
     }
 
     .row > .off-12-mobile {
@@ -2136,7 +2136,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #37c0fb;
+    border-color: #43d373;
 }
 
 input[type="text"],
@@ -2257,7 +2257,7 @@ label {
 .icon.major {
     text-align: center;
     cursor: default;
-    background-color: #37c0fb;
+    background-color: #43d373;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
         url("images/bg01.png");
@@ -2562,7 +2562,7 @@ button,
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
         url("images/bg01.png");
-    background-color: #37c0fb;
+    background-color: #43d373;
     border-radius: 5px;
     border: 0;
     color: #fff;
@@ -2575,6 +2575,8 @@ button,
     text-decoration: none;
     font-weight: 600;
     letter-spacing: -0.025em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 input[type="submit"]:hover,
@@ -2706,7 +2708,7 @@ button.small,
 
 #nav {
     cursor: default;
-    background-color: #333;
+    background-color: rgba(2, 51, 14, 0.75);
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
         url("images/bg01.png");
@@ -2727,7 +2729,7 @@ button.small,
     display: block;
     width: 100%;
     height: 0.75em;
-    background-color: #37c0fb;
+    background-color: #43d373;
     background-image: url("images/bg01.png");
 }
 
@@ -2774,7 +2776,7 @@ button.small,
     bottom: -0.5em;
     left: 50%;
     margin-left: -0.375em;
-    background-color: #37c0fb;
+    background-color: #43d373;
     background-image: url("images/bg01.png");
 }
 
@@ -2843,7 +2845,7 @@ button.small,
 }
 
 /* Banner */
-
+/*
 #banner {
     background-image: url("../../images/banner.jpg");
     background-position: center center;
@@ -2851,6 +2853,42 @@ button.small,
     height: 28em;
     text-align: center;
     position: relative;
+}*/
+#banner {
+    padding: 3em 0;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.banner-box {
+    width: 45%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.banner-box img {
+    width: 100%;
+    height: 18em;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.banner-box:hover img {
+    opacity: 0.85;
+}
+
+.banner-box h3 {
+    margin-top: 1em;
+    font-size: 1.4em;
+    color: #007b5e;
 }
 
 #banner header {
@@ -2858,8 +2896,8 @@ button.small,
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #212121;
-    background: rgba(27, 27, 27, 0.75);
+    background: #023a10;
+    background: rgba(2, 51, 14, 0.75);
     color: #fff;
     padding: 1.5em 0;
 }
@@ -2914,7 +2952,7 @@ button.small,
 }
 
 .wrapper.style3 {
-    background-color: #37c0fb;
+    background-color: #43d373;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
         url("images/bg01.png");
@@ -2936,7 +2974,7 @@ button.small,
 }
 
 .wrapper.style3 .button:hover {
-    color: #37c0fb !important;
+    color: #43d373 !important;
 }
 
 /* CTA */
@@ -2969,7 +3007,7 @@ button.small,
 }
 
 #footer a:hover {
-    color: #37c0fb;
+    color: #43d373;
     border-bottom-color: transparent;
 }
 
@@ -3275,7 +3313,7 @@ button.small,
             url("images/bg01.png");
         height: 44px;
         line-height: 44px;
-        box-shadow: 0 4px 0 0 #37c0fb;
+        box-shadow: 0 4px 0 0 #43d373;
     }
 
     #titleBar .title {
@@ -3443,146 +3481,6 @@ button.small,
         -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
         transform: translateX(0);
-    }
-}
-
-/* Mobile */
-
-@media screen and (max-width: 736px) {
-    /* Basic */
-
-    body,
-    input,
-    select,
-    textarea {
-        font-size: 11pt;
-        line-height: 1.35em;
-    }
-
-    h2 {
-        font-size: 1.25em;
-        letter-spacing: 0;
-        line-height: 1.35em;
-    }
-
-    h3 {
-        font-size: 1em;
-        letter-spacing: 0;
-        line-height: 1.35em;
-    }
-
-    header p {
-        margin-top: -0.5em;
-        font-size: 1em;
-    }
-
-    header.major {
-        padding: 0 20px;
-    }
-
-    header.major h2 {
-        font-size: 1.25em;
-    }
-
-    header.major p {
-        top: 0;
-        margin-top: 1.25em;
-        font-size: 1em;
-    }
-
-    /* Menu */
-
-    ul.menu li {
-        border: 0;
-        padding: 0;
-        margin: 0;
-        display: block;
-        line-height: 2em;
-    }
-
-    /* Banner */
-
-    #banner {
-        height: 18em;
-    }
-
-    /* Wrapper */
-
-    .wrapper {
-        padding: 2em 0 1px 0;
-    }
-}
-
-/* Mobile (Portrait) */
-
-@media screen and (max-width: 480px) {
-    /* Icon */
-
-    .icon.major {
-        width: 4em;
-        height: 4em;
-        line-height: 4em;
-        box-shadow:
-            0 0 0 7px white,
-            0 0 0 8px #e0e0e0;
-    }
-
-    .icon.major:before {
-        font-size: 24px;
-    }
-
-    /* Button */
-
-    input[type="submit"],
-    input[type="reset"],
-    input[type="button"],
-    button,
-    .button {
-        width: 100%;
-        display: block;
-    }
-
-    /* Box */
-
-    .box.highlight {
-        padding-left: calc(4em + 30px);
-    }
-
-    .box.post .inner {
-        margin-left: calc(30% + 20px);
-    }
-
-    .box.post .image {
-        width: 30%;
-    }
-
-    /* Banner */
-
-    #banner {
-        height: 20em;
-    }
-
-    #banner header {
-        padding: 20px;
-    }
-
-    /* Wrapper */
-
-    .wrapper {
-        padding: 2em 20px 1px 20px;
-    }
-
-    /* CTA */
-
-    #cta {
-        padding: 20px;
-    }
-
-    /* Footer */
-
-    #footer {
-        padding: 2em 20px;
-        text-align: left;
     }
 }
 
@@ -3789,7 +3687,7 @@ button.small,
 .hero-content {
     position: absolute;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
     color: #fff;
 }
 
@@ -3848,4 +3746,110 @@ button.small,
     padding-left: 10px;
     color: #ffffff;
     font-size: 30px;
+}
+
+/* Nursery section */
+.mashatel-section {
+    padding: 40px 0;
+}
+
+.mashatel-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.mashatel-intro {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.mashatel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.mashatel-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mashatel-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.mashatel-card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mashatel-card-desc {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.mashatel-details {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.mashatel-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.mashatel-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #00994d;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nursery-grid {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nursery-box {
+    width: 45%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nursery-box img {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 1em 0 2em;
+    padding: 0.7em 1.4em;
+    background: #00996e;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #007a56;
+    transform: translateX(-3px);
 }

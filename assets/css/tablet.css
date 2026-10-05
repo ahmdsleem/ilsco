@@ -1,0 +1,106 @@
+/* ============================
+   Tablet Styles (max-width: 1024px)
+   ============================ */
+
+@media screen and (max-width: 1024px) {
+
+    /* General */
+    body {
+        font-size: 16px;
+        line-height: 1.7;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3, h4 {
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Header */
+    #header img {
+        height: 150px !important;
+        left: 10px !important;
+        top: 50% !important;
+    }
+
+    #header h3 {
+        font-size: 55px !important;
+        padding-top: 160px;
+    }
+
+    /* Navigation */
+    #nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    #nav ul li {
+        margin: 8px 0;
+    }
+
+    /* Wrapper */
+    .wrapper {
+        padding: 2em 30px;
+    }
+
+    /* Hero Sections */
+    .about-hero {
+        height: auto !important;
+        padding: 50px 30px;
+        text-align: center;
+    }
+
+    .hero-content {
+        position: static !important;
+        margin-top: 20px;
+    }
+
+    /* Nursery Grid */
+    .nursery-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .nursery-box {
+        width: 100% !important;
+    }
+
+    /* Mashatel Grid (Products) */
+    .mashatel-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .mashatel-card {
+        width: 100% !important;
+    }
+
+    .mashatel-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 2em 30px;
+        text-align: center;
+    }
+
+    #footer .links li {
+        margin-bottom: 10px;
+    }
+
+    #footer ul.menu {
+        text-align: center;
+    }
+}
