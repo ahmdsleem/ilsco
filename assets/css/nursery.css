@@ -3496,6 +3496,8 @@ button.small,
 
 .mashatel-img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -3569,4 +3571,20 @@ button.small,
 .back-btn:hover {
     background: #007a56;
     transform: translateX(-3px);
+}
+
+.delivery-note {
+    background: #ffefc2;
+    color: #6b4b00;
+
+    border-right: 6px solid #ff9800;
+
+    padding: 18px;
+    margin: 20px 0;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    text-align: center;
+    border-radius: 8px;
 }
