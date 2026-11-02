@@ -3667,7 +3667,7 @@ button.small,
 .about-hero {
     position: relative;
     height: 200px;
-    background: url('../images/hero-garden.webp') center/cover no-repeat;
+    background: url("images/hero-garden.webp") center/cover no-repeat;
     border-radius: 10px;
     margin: 30px auto;
     width: 97%;
