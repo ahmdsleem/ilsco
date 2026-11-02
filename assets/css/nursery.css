@@ -177,7 +177,7 @@ html {
 }
 
 body {
-    background: #f7f7f7 url("images/bg01.png");
+    background: #f7f7f7 url("../../images/bg01.png");
 }
 
 body.is-preload *,
