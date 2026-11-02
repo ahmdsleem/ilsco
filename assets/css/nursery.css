@@ -2260,16 +2260,16 @@ label {
     background-color: #43d373;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     color: #fff;
     border-radius: 100%;
     display: inline-block;
@@ -2510,16 +2510,16 @@ table.default thead {
     background-color: #555555;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     color: #fff;
 }
 
@@ -2552,16 +2552,16 @@ button,
         box-shadow 0.2s ease-in-out;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-color: #096d4f;
     border-radius: 5px;
     border: 0;
@@ -2681,7 +2681,7 @@ button.small,
     padding: 3em 0 0 0;
     background-color: #fff;
     background-image:
-        url("../assets/css/images/bg02.png"), url("../assets/css/images/bg02.png"), url("../assets/css/images/bg01.png");
+        url("../../assets/css/images/bg02.png"), url("../../assets/css/images/bg02.png"), url("../../assets/css/images/bg01.png");
     background-position:
         top left,
         top left,
@@ -2709,16 +2709,16 @@ button.small,
     background-color: rgba(2, 51, 14, 0.75);
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-        url("../assets/css/images/bg01.png");
+        url("../../assets/css/images/bg01.png");
     background-image:
         -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-        url("../assets/css/images/bg01.png");
+        url("../../assets/css/images/bg01.png");
     background-image:
         -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-        url("../assets/css/images/bg01.png");
+        url("../../assets/css/images/bg01.png");
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-        url("../assets/css/images/bg01.png");
+        url("../../assets/css/images/bg01.png");
     padding: 0;
 }
 
@@ -2728,7 +2728,7 @@ button.small,
     width: 100%;
     height: 0.75em;
     background-color: #43d373;
-    background-image: url("../assets/css/images/bg01.png");
+    background-image: url("../../assets/css/images/bg01.png");
 }
 
 #nav > ul {
@@ -2775,7 +2775,7 @@ button.small,
     left: 50%;
     margin-left: -0.375em;
     background-color: #43d373;
-    background-image: url("../assets/css/images/bg01.png");
+    background-image: url("../../assets/css/images/bg01.png");
 }
 
 #nav > ul > li.current a {
@@ -2797,7 +2797,7 @@ button.small,
 /* Banner */
 
 #banner {
-    background-image: url("../assets/css/images/banner.jpg");
+    background-image: url("../../assets/css/images/banner.jpg");
     background-position: center center;
     background-size: cover;
     height: 28em;
@@ -2853,7 +2853,7 @@ button.small,
 .wrapper.style2 {
     background-color: #fff;
     background-image:
-        url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+        url("../../images/bg02.png"), url("../../images/bg03.png"), url("../../images/bg01.png");
     background-position:
         top left,
         bottom left,
@@ -2869,16 +2869,16 @@ button.small,
     background-color: #43d373;
     background-image:
         -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     background-image:
         linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)),
-        url("images/bg01.png");
+        url("../../images/bg01.png");
     color: #fff;
 }
 
@@ -3215,16 +3215,16 @@ button.small,
         background-color: #333;
         background-image:
             -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         height: 44px;
         line-height: 44px;
         box-shadow: 0 4px 0 0 #43d373;
@@ -3292,24 +3292,24 @@ button.small,
                 rgba(0, 0, 0, 0) 75%,
                 rgba(0, 0, 0, 0.15)
             ),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             -webkit-linear-gradient(
                 left,
                 rgba(0, 0, 0, 0) 75%,
                 rgba(0, 0, 0, 0.15)
             ),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             -ms-linear-gradient(
                 left,
                 rgba(0, 0, 0, 0) 75%,
                 rgba(0, 0, 0, 0.15)
             ),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         background-image:
             linear-gradient(left, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.15)),
-            url("images/bg01.png");
+            url("../../images/bg01.png");
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
