@@ -2623,6 +2623,7 @@ button.small,
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
+     border:5px solid yellow;
 }
 
 .banner-box {
@@ -2631,6 +2632,7 @@ button.small,
     text-decoration: none;
     color: #fff;
     position: relative;
+    border:5px solid green;
 }
 
 .banner-box img {
