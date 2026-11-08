@@ -248,7 +248,7 @@
 
     /* General */
     * {
-        max-width: 95% !important;
+        /* max-width: 95% !important; */
         box-sizing: border-box !important;
     }
 
