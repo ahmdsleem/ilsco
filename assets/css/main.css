@@ -2856,6 +2856,7 @@ button.small,
 }*/
 #banner {
     padding: 3em 0;
+    overflow: hidden;
 }
 
 .banner-wrapper {
