@@ -2614,7 +2614,7 @@ button.small,
     position: relative;
 }*/
 #banner {
-    padding: 3em;
+    padding: 100%;
 }
 
 .banner-wrapper {
