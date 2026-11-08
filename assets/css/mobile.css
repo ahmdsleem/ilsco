@@ -301,7 +301,7 @@
         height: auto !important;
     }
 
-    /* Header */
+    /* Header 
     #header {
         text-align: center;
         padding: 20px 0;
@@ -318,7 +318,7 @@
         font-size: 32px !important;
         margin-top: 140px;
     }
-
+                    */
     /* Navigation */
     #nav ul {
         display: block;
