@@ -223,6 +223,30 @@
 }
 
 /* ============================
+   Banner Mobile Styles
+   (max-width: 480px)
+   ============================ */
+@media screen and (max-width: 480px) {
+
+    .banner-wrapper {
+        display: block !important;
+    }
+
+    .banner-box {
+        width: 100% !important;
+        display: block !important;
+        margin-bottom: 25px !important;
+    }
+
+    .banner-box img {
+        width: 100% !important;
+        height: 220px !important;
+        object-fit: cover !important;
+    }
+
+}
+
+/* ============================
    Mashatel Mobile Styles
    (max-width: 480px)
    ============================ */
