@@ -70,7 +70,7 @@
     }
 
     .row > .col-4-mobilep {
-        width: 100%;
+        width: 100% !important;
     }
 
     .row > .off-4-mobilep {
@@ -86,7 +86,7 @@
     }
 
     .row > .col-6-mobilep {
-        width: 100%;
+        width: 100% !important;
     }
 
     .row > .off-6-mobilep {
@@ -134,7 +134,7 @@
     }
 
     .row > .col-12-mobilep {
-        width: 100%;
+        width: 100% !important;
     }
 
     .row > .off-12-mobilep {
