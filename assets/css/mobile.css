@@ -490,6 +490,27 @@
 } 
 
 /* ============================
+   Highlight Mobile Styles
+   (max-width: 480px)
+   ============================ */
+@media screen and (max-width: 480px) {
+
+    .box.highlight {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .box.highlight i {
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        display: block !important;
+        margin: 0 auto 1em auto !important;
+    }
+
+}
+
+/* ============================
    Mashatel Mobile Styles
    (max-width: 480px)
    ============================ */
