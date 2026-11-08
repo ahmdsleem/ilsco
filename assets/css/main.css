@@ -2408,7 +2408,8 @@ button.small,
 /* Box */
 
 .box.highlight {
-    text-align: center;
+    text-align: center !important;
+    padding-left: 0 !important;
 }
 
 .box.post {
@@ -2693,6 +2694,7 @@ button.small,
 
 .wrapper.style1 {
     background: #fff;
+    border: 5px solid blue;
 }
 
 .wrapper.style2 {
@@ -2858,6 +2860,7 @@ button.small,
 
     #banner {
         height: 20em;
+         border: 5px solid red;
     }
 
     /* Wrapper */
