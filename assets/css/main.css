@@ -2859,7 +2859,7 @@ button.small,
     /* Banner */
 
     #banner {
-        height: 20em;
+        height: auto;
          border: 5px solid red;
     }
 
