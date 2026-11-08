@@ -348,7 +348,9 @@
         border-radius: 10px !important;
     }
 
-    /* Back button */
+    /* ==============
+        Back button
+       ============== */
     .back-btn {
         display: block !important;
         width: 100% !important;
