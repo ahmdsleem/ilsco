@@ -322,6 +322,8 @@ blockquote {
     margin: 0 auto;
     max-width: 100%;
     width: 1400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 @media screen and (max-width: 1680px) {
@@ -356,7 +358,7 @@ blockquote {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -430,7 +432,7 @@ blockquote {
 }
 
 .row > .col-4 {
-    width: 100%;
+    width: 33%;
 }
 
 .row > .off-4 {
@@ -446,7 +448,7 @@ blockquote {
 }
 
 .row > .col-6 {
-    width: 100%;
+    width: 50%;
 }
 
 .row > .off-6 {
@@ -2615,15 +2617,15 @@ button.small,
     position: relative;
 }*/
 #banner {
-    padding: 3em;
+    padding: 2em;
+    height: auto !important;
 }
 
 .banner-wrapper {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 5em;
     flex-wrap: wrap;
-     border:5px solid yellow;
 }
 
 .banner-box {
@@ -2696,7 +2698,6 @@ button.small,
 
 .wrapper.style1 {
     background: #fff;
-    border: 5px solid blue;
 }
 
 .wrapper.style2 {
@@ -2862,7 +2863,6 @@ button.small,
 
     #banner {
         height: auto;
-         border: 5px solid red;
     }
 
     /* Wrapper */
@@ -3617,4 +3617,14 @@ button.small,
 .back-btn:hover {
     background: #007a56;
     transform: translateX(-3px);
+}
+
+html[dir="rtl"] .row {
+    margin-left: 0;
+    margin-right: -50px;
+}
+
+html[dir="rtl"] .row > * {
+    padding-left: 0;
+    padding-right: 50px;
 }
