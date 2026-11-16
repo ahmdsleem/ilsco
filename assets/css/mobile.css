@@ -1,6 +1,14 @@
 /* ============================
    Mobile Styles (max-width: 480px)
    ============================ */
+
+   #titleBar .title img {
+        height: 40px !important;
+        width: auto !important;
+        max-width: 120px !important;
+    }
+
+
 @media screen and (max-width: 480px) {
     .row {
         display: flex;
