@@ -471,15 +471,17 @@
 @media screen and (max-width: 480px) {
 
     .banner-wrapper {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 25px !important;
+        display: block !important;
+        /*flex-direction: column !important;
+        gap: 25px !important;*/
     }
 
     .banner-box {
         width: 100% !important;
         display: block !important;
         margin-bottom: 25px !important;
+        float: none !important;
+        clear: both !important;
     }
 
     .banner-box img {
