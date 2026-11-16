@@ -7,6 +7,37 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#logo {
+    display: none;
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: row-reverse; /* RTL */
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.desktop-logo {
+    height: 200px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+.site-title {
+    flex: 1;
+
+    text-align: center;
+    color: #0F5F3F;
+
+    font-size: clamp(2rem, 4vw, 5rem);
+
+    margin: 0;
+}
+
 html,
 body,
 div,
@@ -2909,6 +2940,7 @@ button.small,
     display: none;
 }
 
+
 @media screen and (max-width: 840px) {
     /* Basic */
 
@@ -3078,6 +3110,11 @@ button.small,
         height: 44px;
         line-height: 44px;
         box-shadow: 0 4px 0 0 #43d373;
+    }
+
+    #titleBar .title img {
+        height: 35px;
+        width: auto;
     }
 
     #titleBar .title {
